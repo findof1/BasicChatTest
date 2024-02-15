@@ -22,7 +22,7 @@ export default function Home() {
     });
 
 
-  }, [])
+  }, [setMsgs])
 
   function sendMessage() {
     if(msg){
